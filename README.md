@@ -28,3 +28,11 @@ git remote add origin https://github.com/ninad555/simple-dvc-demo.git
 git branch -M main
 
 git push -u origin main
+ 
++ git init 
+
++ git branch -M main
+
++ git commit -m "first commit"
+
++ git push -u origin main 
