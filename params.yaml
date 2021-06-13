@@ -3,7 +3,7 @@
     random_state: 42
     target_col: TARGET
 
-  data-scource:
+  data-source:
     s3_source: data_given/winequality.csv
 
   load_data:
