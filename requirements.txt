@@ -1,3 +1,7 @@
+# local packages intsall
+-e.
+
+#third party packages
 dvc
 dvc[gdrive]
 sklearn
