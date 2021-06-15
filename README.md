@@ -37,5 +37,21 @@ git push -u origin main
 
 + git push -u origin main 
 
+tox command -
+'''bash
+tox -r
 
-dev repro
+
+pytest command - 
+'''bash
+pytest -v 
+
+
+setup commands - 
+'''bash 
+pip install -e.
+
+build your own package commands-
+'''bash
+pyton setup.py sdist bdist_wheel
+
