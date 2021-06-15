@@ -1,6 +1,7 @@
 create env
-
+```bash
 conda create -n wineq python=3.7 -y
+```
 
 activate 
 conda activate wineq
@@ -38,20 +39,22 @@ git push -u origin main
 + git push -u origin main 
 
 tox command -
-'''bash
+```bash
 tox -r
-
+```
 
 pytest command - 
-'''bash
+```bash
 pytest -v 
+```
 
 
 setup commands - 
-'''bash 
+```bash 
 pip install -e.
+```
 
 build your own package commands-
-'''bash
+```bash
 pyton setup.py sdist bdist_wheel
-
+```
