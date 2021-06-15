@@ -14,13 +14,19 @@
     test_path: data/processed/test_winequality.csv
     test_size: 0.2
 
-  estimator:
+  estimators:
     ElasticNet:
       params:
-        alpha: 0.88
-        l1_ratio: 0.89
+        #alpha: 0.88
+        #l1_ratio: 0.89
+        alpha =
 
   model_dir: saved_models
+
+  reports:
+    params: report/params.json
+    scores: report/scores.json
+
 
 
 
