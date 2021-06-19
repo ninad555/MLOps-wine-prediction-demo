@@ -10,3 +10,5 @@ numpy
 pytest
 tox
 gunicorn
+flake8
+flask
