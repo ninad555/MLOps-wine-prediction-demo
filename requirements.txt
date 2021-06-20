@@ -12,3 +12,4 @@ tox
 gunicorn
 flake8
 flask
+mlflow
